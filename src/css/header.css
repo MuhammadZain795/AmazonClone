@@ -26,5 +26,12 @@
     height: 22px !important;
 }
 .header_nav{
-    
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_options{
+
+}
+.header_links{
+    color: white;
 }

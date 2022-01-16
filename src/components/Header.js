@@ -17,7 +17,28 @@ export default function Header() {
                 <SearchIcon className='hearder_serachIcon'/>
             </div>
             <div className='header_nav'>
-                <Link></Link>
+                <Link to={"/login"} className='header_links'>
+                    <div className='header_options'>
+                        <span>Hello</span>
+                        <span>Sign In</span>
+                    </div>                    
+                </Link>
+                
+                <Link to={"/login"} className='header_links'>
+                    <div className='header_options'>
+                        <span>Hello</span>
+                        <span>Sign In</span>
+                    </div>                    
+                </Link>
+
+                <Link to={"/login"} className='header_links'>
+                    <div className='header_options'>
+                        <span>Hello</span>
+                        <span>Sign In</span>
+                    </div>                    
+                </Link>
+
+
             </div>
         </nav>
     )
