@@ -1,12 +1,30 @@
 .header{
     background-color: #131921;
+    display: flex;
+    align-items: center;
 }
 .header_logo{
+    object-fit: contain;
     margin-top: 18px;
     margin-left: 20px;
     margin-right: 20px;
     width: 100px;
 }
+.header_search{
+    display: flex;
+    flex: 1;
+}
 .header_searchInput{
+ height: 12px;
+ padding: 10px;
+ border: none;
+ width: 100%;   
+}
+.hearder_serachIcon{
+    background-color: orange;
+    padding: 5px;
+    height: 22px !important;
+}
+.header_nav{
     
 }
