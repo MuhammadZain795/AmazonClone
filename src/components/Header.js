@@ -20,22 +20,22 @@ export default function Header() {
             <div className='header_nav'>
                 <Link to={"/login"} className='header_links'>
                     <div className='header_options'>
-                        <span className='header_optionLine1'>Hello</span>
+                        <span className='header_optionLine1'>Hello Zain</span>
                         <span className='header_optionLine2'>Sign In</span>
                     </div>                    
                 </Link>
                 
                 <Link to={"/login"} className='header_links'>
                     <div className='header_options'>
-                        <span className='header_optionLine1'>Hello</span>
-                        <span className='header_optionLine2'>Sign In</span>
+                        <span className='header_optionLine1'>In Returns</span>
+                        <span className='header_optionLine2'>& Orders</span>
                     </div>                    
                 </Link>
 
                 <Link to={"/login"} className='header_links'>
                     <div className='header_options'>
-                        <span className='header_optionLine1'>Hello</span>
-                        <span className='header_optionLine2'>Sign In</span>
+                        <span className='header_optionLine1'>Your</span>
+                        <span className='header_optionLine2'>Prime</span>
                     </div>                    
                 </Link>
 
