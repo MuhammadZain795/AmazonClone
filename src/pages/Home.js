@@ -11,7 +11,6 @@ export default function Home() {
         alt="banner image"
       />
       <div className='products'>
-        <div className = 'product_class'>
           <Product
             id = "1"
             title = "A Orphan's War"
@@ -19,56 +18,55 @@ export default function Home() {
             rating= {4}
             image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
           />
-        </div>
           <Product
           id = "1"
-          title = "A Orphan's War"
-          price = {10}
+          title = "The War Between Us"
+          price = {12}
           rating= {4}
-          image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+          image = "https://m.media-amazon.com/images/I/51kjvCihacL.jpg"
+        />
+          <Product
+          id = "1"
+          title = "The Book Thief"
+          price = {20}
+          rating= {4}
+          image = "http://mindjoggle.com/wp-content/uploads/2020/07/the-book-thief.png"
+        />
+          <Product
+          id = "1"
+          title = "The Last Magician"
+          price = {9}
+          rating= {4}
+          image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT3vajBV5Ss777kiaS_AGibICC28-TWR3ZUg&usqp=CAU"
         />
         <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
-        <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
-      <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
-        <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
-            <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
-        <Product
-        id = "1"
-        title = "A Orphan's War"
-        price = {10}
-        rating= {4}
-        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-      />
+            id = "1"
+            title = "A Orphan's War"
+            price = {10}
+            rating= {4}
+            image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+          />
+          <Product
+          id = "1"
+          title = "The War Between Us"
+          price = {12}
+          rating= {4}
+          image = "https://m.media-amazon.com/images/I/51kjvCihacL.jpg"
+        />
+          <Product
+          id = "1"
+          title = "The Book Thief"
+          price = {20}
+          rating= {4}
+          image = "http://mindjoggle.com/wp-content/uploads/2020/07/the-book-thief.png"
+        />
+          <Product
+          id = "1"
+          title = "The Last Magician"
+          price = {9}
+          rating= {4}
+          image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT3vajBV5Ss777kiaS_AGibICC28-TWR3ZUg&usqp=CAU"
+        />
 
       </div>
     </div>
