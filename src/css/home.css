@@ -7,3 +7,8 @@
 .home_image{
     width: 100%;
 }
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px 10px 10px 10px; */
+}

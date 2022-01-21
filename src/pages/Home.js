@@ -10,6 +10,35 @@ export default function Home() {
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
         alt="banner image"
       />
+      <div className='products'>
+        <Product
+          id = "1"
+          title = "A Orphan's War"
+          price = {10}
+          rating= {4}
+          image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+        />
+          <Product
+          id = "1"
+          title = "A Orphan's War"
+          price = {10}
+          rating= {4}
+          image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+        />
+        <Product
+        id = "1"
+        title = "A Orphan's War"
+        price = {10}
+        rating= {4}
+        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+      />
+        <Product
+        id = "1"
+        title = "A Orphan's War"
+        price = {10}
+        rating= {4}
+        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+      />
       <Product
         id = "1"
         title = "A Orphan's War"
@@ -17,6 +46,29 @@ export default function Home() {
         rating= {4}
         image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
       />
+        <Product
+        id = "1"
+        title = "A Orphan's War"
+        price = {10}
+        rating= {4}
+        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+      />
+            <Product
+        id = "1"
+        title = "A Orphan's War"
+        price = {10}
+        rating= {4}
+        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+      />
+        <Product
+        id = "1"
+        title = "A Orphan's War"
+        price = {10}
+        rating= {4}
+        image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+      />
+
+      </div>
     </div>
     
   )
