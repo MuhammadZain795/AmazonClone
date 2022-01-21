@@ -11,13 +11,15 @@ export default function Home() {
         alt="banner image"
       />
       <div className='products'>
-        <Product
-          id = "1"
-          title = "A Orphan's War"
-          price = {10}
-          rating= {4}
-          image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
-        />
+        <div className = 'product_class'>
+          <Product
+            id = "1"
+            title = "A Orphan's War"
+            price = {10}
+            rating= {4}
+            image = "https://m.media-amazon.com/images/I/51seH-SzjuL.jpg"
+          />
+        </div>
           <Product
           id = "1"
           title = "A Orphan's War"
